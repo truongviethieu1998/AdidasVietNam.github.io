@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adidas Việt Nam</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="./image/logo-con.jpg">
+</head>
+
+<body>
+    <header>
+        <div class="header-1">
+            <div class="header-info">
+                <span class="sdt">SĐT 0374-630-383</span><span>Email: Adidas@gmail.com</span>
+            </div>
+            <div class="header-info header2">
+                <span>Địa chỉ : 31 Phan Đình Giót - Thanh Xuân - Hà Nội</span>
+                <a href="login.html" title="Đăng nhập">Đăng nhập</a>
+            </div>
+        </div>
+        <div class="wrap" id="myHeader">
+            <div class="header-2">
+                <div class="logo">
+                    <a href="index.html">
+                        <img id="img-logo" src="./image/ZUA1fE.gif" alt="">
+                    </a>
+                </div>
+                <ul class="header-2-ul" id="header-2-ul">
+                    <li data-aos="fade-down" data-aos-delay="100">
+                        <a href="">GIÀY</a>
+                    </li>
+                    <li data-aos="fade-down" data-aos-delay="150">
+                        <a href="">QUẦN ÁO</a>
+                    </li>
+                    <li data-aos="fade-down" data-aos-delay="200">
+                        <a href="">PHỤ KIỆN</a>
+                    </li>
+                    <li data-aos="fade-down" data-aos-delay="250">
+                        <a href="">GIẢM GIÁ</a>
+                    </li>
+                    <li data-aos="fade-down" data-aos-delay="300">
+                        <a href="">THỂ THAO</a>
+                    </li>
+                </ul>
+                <div class="search-and-cart">
+                    <ul class="search-and-cart-ul">
+                        <li data-aos="fade-down" data-aos-delay="400">
+                            <div class="search">
+                                <input type="text" id="search-input" placeholder="tìm kiếm">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </li>
+                        <li data-aos="fade-down" data-aos-delay="450">
+                            <a href="" title="Giỏ hàng"><img src="./image/cart.png" alt="" id="cart"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="wrap">
+            <div class="dichvu">
+                <!-- MODAL -->
+                <div class="dichvu-item">
+                    <i class="fas fa-car"></i>
+                    <p class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">TRẢ HÀNG DỄ DÀNG</p>
+                    <!-- MODAL -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>MIỄN PHÍ GIAO HÀNG TRÊN 1.300.000 VNĐ</h1>
+                                    <p>Miễn phí giao hàng cho tất cả các đơn hàng từ 1.300.000 VNĐ trở lên.</p>
+                                    <p>Cho các đơn hàng còn lại, phí giao hàng tiêu chuẩn được áp dụng.</p>
+                                    <p>Hãy kiểm tra Điều Khoản & Điều Kiện giao hàng của chúng tôi để biết thêm chi tiết.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dichvu-item">
+                    <i class="fas fa-box-open"></i>
+                    <p class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">THANH TOÁN THẺ TÍN DỤNG</p>
+                    <!-- MODAL -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>TRẢ HÀNG DỄ DÀNG</h1>
+                                    <p>Nếu bạn không hài lòng với đơn hàng của mình, bạn có thể được hoàn lại tiền.</p>
+                                    <p>Vui lòng xem Chính Sách Trả Hàng của chúng tôi để biết thêm chi tiết.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dichvu-item">
+                    <i class="fas fa-money-check"></i>
+                    <p class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">MIỄN PHÍ GIAO HÀNG TRÊN 1.300.000 VNĐ</p>
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>NAY ĐÃ CÓ THỂ THANH TOÁN VỚI THẺ TÍN DỤNG!</h1>
+                                    <p>Giờ đây bạn có thể thanh toán bằng thẻ Visa và Mastercard! Lựa chọn phương thức</p>
+                                    <p>Thanh toán bằng thẻ tín dụng ở bước thanh toán. Mua các sản phẩm yêu thích ngay thôi!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- list -->
+            <div class="list">
+                <a href="" id="back"><i class="fas fa-chevron-left"></i> Trở Lại</a> /
+                <a href="">Trang Chủ</a> /
+                <a href="">Giày</a>
+            </div>
+            <div class="detail-product">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="./image/item2.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="image/item2-2.jpg" alt="Second slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <i class="fas fa-chevron-left" style="color: black;"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <i class="fas fa-chevron-right" style="color: black;"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="detail-info">
+                    <h2>Giày Ultraboost SUMMER.RDY</h2>
+                    <p>CORE BLACK / CORE BLACK / SIGNAL ORANGE</p>
+                    <p id="price">3.500.000 VNĐ</p>
+                    <p>CHỌN SIZE :
+                        <select name="" id="">
+                            <option value="">39</option>
+                            <option value="">40</option>
+                            <option value="">41</option>
+                            <option value="">42</option>
+                        </select>
+                    </p>
+                    <p id="size-chart" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4"><i class="fas fa-ruler-horizontal"></i> BIỂU ĐỒ KÍCH THƯỚC</p>
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h1>KÍCH CỠ GIÀY DÉP ADIDAS NAM VÀ NỮ</h1>
+                                    <p>TÌM KÍCH CỠ CỦA BẠN</p>
+                                    <table class="table">
+                                        <thead class="thead-dark">
+                                            <tr>
+                                                <th scope="col">Gót và đầu ngón chân</th>
+                                                <th scope="col">32.6 cm</th>
+                                                <th scope="col">33.5 cm</th>
+                                                <th scope="col">34.3 cm</th>
+                                                <th scope="col">35.2 cm</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">EU</th>
+                                                <td>52 2/3</td>
+                                                <td>53 1/3</td>
+                                                <td>54 2/3</td>
+                                                <td>55 2/3</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">UK</th>
+                                                <td>16</td>
+                                                <td>17</td>
+                                                <td>18</td>
+                                                <td>19</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">US - Nam</th>
+                                                <td>17</td>
+                                                <td>18</td>
+                                                <td>19</td>
+                                                <td>20</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <h1>BẠN GẦN VỪA VỚI HAI KÍCH CỠ?</h1>
+                                    <p>Để bó sát, lấy nhỏ hơn một cỡ. </p>
+                                    <p>Để rộng thoải mái, lấy to hơn một cỡ. </p>
+                                    <h1>KHÔNG ĐÚNG KÍCH CỠ HOẶC MÀU SẮC?</h1>
+                                    <p>Vui lòng truy cập trang Trả lại hàng & Hoàn tiền của chúng tôi để biết chi tiết. </p>
+                                    <h1>CÁCH ĐO</h1>
+                                    <div class="row" style="background-color: #ebedee;">
+                                        <div class="col-md-6">
+                                            <p>CÁCH ĐO Làm theo những bước sau để chọn đúng kích cỡ. Để tìm số đo chuẩn nhất, hãy đo bàn chân bạn vào cuối ngày. 1.Đứng lên một mảnh giấy với gót chân chạm nhẹ vào bức tường phía sau. 2.Đánh dấu đỉnh đầu của
+                                                ngón chân dài nhất lên giấy (nên nhờ một người bạn giúp đỡ) và đo khoảng cách từ tường đến điểm đánh dấu. 3.Làm tương tự với bàn chân còn lại và so sánh số đo với biểu đồ kích cỡ của chúng tôi để chọn đúng
+                                                kích cỡ.</p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="./image/how-to-measure-shoes.png" alt="" style="width:100%;padding-top: 15px;
+                                            ">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="cart.html" id="buy">THÊM VÀO GIỎ HÀNG <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="detail-info1">
+                        <p>ĐỢT GIẢM GIÁ GIỮA MÙA BẮT ĐẦU!</p>
+                        <p>TRẢ HÀNG DỄ DÀNG</p>
+                        <p>KHÔNG ĐÚNG KÍCH CỠ HOẶC MÀU SẮC? VUI LÒNG TRUY CẬP TRANG TRẢ LẠI HÀNG & HOÀN TIỀN CỦA CHÚNG TÔI ĐỂ BIẾT CHI TIẾT</p>
+                        <h3>THÔNG SỐ</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Ôm vừa</p>
+                                <p>Có dây buộc</p>
+                                <p>Thân giày bằng vải dệt kim gia công đặc biệt </p>
+                                <p>Giày chạy bộ thoải mái, thời thượng </p>
+                                <p>Đế giữa công nghệ Boost đàn hồi </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Trọng lượng: 405 g (cỡ UK 8.5) </p>
+                                <p>Chênh lệch độ cao đế giữa: 10 mm (gót giày: 24 mm / mũi giày: 14 mm) </p>
+                                <p>Đế ngoài bằng cao su </p>
+                                <p>Màu sản phẩm: Core Black / Core Black / Signal Orange </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+<footer class="footer">
+    <section>
+        <div class="dangkyEmail">
+            <div class="wrap">
+                <p>ĐĂNG KÝ NHẬN THÔNG TIN CẬP NHẬT VÀ ƯU ĐÃI QUA EMAIL</p>
+                <a href="#">Đăng ký nhận bản tin <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <ul class="ul-footer">
+        <li>
+            <div class="footer-item">
+                <img src="./image/ZUA1fE.gif" alt="">
+                <p>Office Online: 0374-630-383</p>
+                <p>HN: 31 PHAN ĐÌNH GIÓT - THANH XUÂN - HÀ NỘI</p>
+                <p>Open: 8h30 - 21h30 </p>
+                <p>Hotline: 0374-630-383 (tạm đóng cửa)</p>
+            </div>
+        </li>
+        <li>
+            <div class="footer-item">
+                <h5>CHÍNH SÁCH</h5>
+                <p>CHÍNH SÁCH BẢO QUẢN</p>
+                <p>CHÍNH SÁCH ĐỔI HÀNG</p>
+                <p>CHÍNH SÁCH BẢO MẬT</p>
+                <p>HỆ THỐNG MEMBER</p>
+            </div>
+        </li>
+        <li>
+            <div class="footer-item">
+                <h5>DỊCH VỤ HƯỚNG DẪN</h5>
+                <p>GIAO HÀNG TẬN NƠI</p>
+                <p>MEMBER OFFLINE</p>
+                <p>MEMBER ONLINE</p>
+                <p>HƯỚNG DẪN ĐĂNG KÝ TÀI KHOẢN</p>
+                <p>HƯỚNG DẪN BẢO QUẢN</p>
+            </div>
+        </li>
+        <li>
+            <div class="footer-item">
+                <h5>CỘNG ĐỒNG</h5>
+                <a href="" title="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="" title="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="" title="twitter"><i class="fab fa-twitter"></i></a>
+                <h5 style="margin-top: 20px;">ĐỐI TÁC GIAO HÀNG</h5>
+                <img src="./image/doitacgiaohang.png" alt="">
+            </div>
+        </li>
+    </ul>
+    <p class="last-footer">Copyright 2020 © ADIDAS</p>
+</footer>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="Scripts/slick.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script>
+    // function openMenu() {
+    //     document.getElementById("header-2-ul").style.right = "0";
+    // }
+
+    // function closeMenu() {
+    //     document.getElementById("header-2-ul").style.right = "-50%";
+    // }
+
+    window.onscroll = function() {
+        myFunction()
+    };
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+    }
+
+    $(document).ready(function() {
+        $('.test').slick({
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+    })
+</script>
